@@ -1,0 +1,116 @@
+body {
+    margin-top: 40px;
+    background-color: #eeecec;
+}
+
+.symbol-container {
+    width: 30px;
+    height: 30px;
+    border: 8px solid rgb(14, 129, 54);
+    margin: 0;
+    padding: 0;
+    /* margin-left: 20px; */
+    margin-right: 5px;
+}
+
+.head-container {
+    display: flex;
+    /* position: fixed; */
+    cursor: pointer;
+    margin-left: 10px;
+
+}
+
+.bank-name {
+    color: rgb(14, 129, 54);
+    font-size: 17px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+}
+
+.profile-logo {
+    margin-top: 3px;
+    cursor: pointer;
+}
+
+.bill-container {
+    margin-left: 20px;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+
+.bill-content {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    color: #9b9b9b;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.bill-his {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 35px;
+    margin-top: 30px;
+}
+
+.billers {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+
+}
+
+.billers.active {
+    background-color: rgb(14, 129, 54);
+    height: 8px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.history {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.history.active {
+    background-color: rgb(14, 129, 54);
+    height: 8px;
+    width: 120px;
+    border-radius: 10px;
+    margin-top: 8px;
+}
+
+.history-sub {
+    text-align: center;
+}
+.menu-container{
+    position: fixed;
+  bottom: 0;
+  left: 0px;
+  width: 100%;
+  padding: 10px 0;
+  background-color: #eeecec;
+}
+
+.sub-container{
+    padding-bottom: 25%;
+}
+.toggle-button{
+    cursor: pointer;
+}
+.bank-conttent{
+    margin-left: 2%;
+}

@@ -1,0 +1,56 @@
+.collapsible-menu{
+    margin: 20px 20px 20px 20px;
+    background-color: transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 10px;
+    display: grid;
+    overflow: hidden;
+}
+.toggle-button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: transparent;
+    border: transparent;
+    font-size:20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.menu-items{
+    /* display: grid;
+    justify-content: space-around;
+    inline-size: 100%; */
+    display: grid;
+    grid-auto-rows: auto;
+    grid-auto-columns: -webkit-max-content;
+    grid-auto-columns: max-content;
+    grid-template-columns: repeat(auto-fill,minmax(90px,1fr));
+    grid-column-gap: var(--space-2);
+    grid-row-gap: var(--space-2);
+    text-align: center;
+}
+ .profile-logo{
+    margin: 10px 20px 10px 20px;
+    background-color: transparent;
+    text-align: center;
+} 
+.text{
+    text-align: center;
+}
+.rohith{
+    /* padding-bottom: 20px; */
+    margin: 10px 20px 10px 20px;
+}
+.plus-name{
+    color: rgb(14, 129, 54);
+}
+.menu-bar {
+    padding: 10px;
+    transition: background-color 0.3s ease;
+    background-color: #eeecec;
+  }
+  
+  .menu-bar.clicked {
+    background-color: white; /* Change to your desired color */
+  }
