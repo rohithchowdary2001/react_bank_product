@@ -1,18 +1,25 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-// import Product from './product/Product';
 import reportWebVitals from './reportWebVitals';
-import Bankmenucollapse from './product/Bankmenucollapse';
-import Collapsableitem from './product/Collapsableitem';
-import Menubar from './product/Menubar';
+// import Product from './product/Product';
+// import Bankmenucollapse from './product/Bankmenucollapse';
+// import Collapsableitem from './product/Collapsableitem';
+// import Menubar from './product/Menubar';
+
+// import Welcomepage from './resumeportifolio/Welcomepage';
+import Aboutme from './resumeportifolio/Aboutmepage';
+import Resume from './resumeportifolio/Resume/Resume';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    {/* <Product /> */}
+    {/* <Product /> 
     <Bankmenucollapse/>
-    {/* <Collapsableitem/> */}
-    {/* <Menubar/> */}
+    <Collapsableitem/>
+    <Menubar/> */}
+    {/* <Welcomepage/> */}
+    {/* <Aboutme/> */}
+    <Resume/>
   </React.StrictMode>
 );
 

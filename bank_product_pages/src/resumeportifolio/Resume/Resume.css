@@ -1,0 +1,11 @@
+.container {
+    width: 100%;
+    height: 100vh;
+    background: #e6dace
+}
+.one{
+    text-align: center;
+}
+.zero{
+    padding-top: 15%;
+}
