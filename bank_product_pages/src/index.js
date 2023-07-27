@@ -7,9 +7,11 @@ import reportWebVitals from './reportWebVitals';
 // import Collapsableitem from './product/Collapsableitem';
 // import Menubar from './product/Menubar';
 
-// import Welcomepage from './resumeportifolio/Welcomepage';
+import Welcomepage from './resumeportifolio/Welcomepage';
 import Aboutme from './resumeportifolio/Aboutmepage';
 import Resume from './resumeportifolio/Resume/Resume';
+import Projects from './resumeportifolio/Resume/Projects';
+import Contactme from './resumeportifolio/Resume/Contact';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
@@ -17,9 +19,11 @@ root.render(
     <Bankmenucollapse/>
     <Collapsableitem/>
     <Menubar/> */}
-    {/* <Welcomepage/> */}
+    <Welcomepage/>
     {/* <Aboutme/> */}
-    <Resume/>
+    {/* <Resume/> */}
+    {/* <Projects/> */}
+    {/* <Contactme/> */}
   </React.StrictMode>
 );
 

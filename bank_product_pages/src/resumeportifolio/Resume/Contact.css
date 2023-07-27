@@ -1,0 +1,35 @@
+.contact {
+    width: 100%;
+    height: 100vh;
+    background: #e6dace;
+    padding-bottom: 40px;
+}
+.contactline{
+    display: flex;
+    padding-top: 13%;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 4%;
+}
+.contactdot{
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.contactme{
+    font-size: 43px;
+    font-family: 'normal normal bold 35px/1.4em poppins-semibold,poppins,sans-serif';
+}
+.contactcontainer{
+        margin: auto;
+        margin-bottom: 0%;
+        width: 60%;
+        background: rgb(235, 228, 228);
+        padding: 30px 10px 30px 30px;
+        border-radius: 10px;
+        box-shadow: -11.31px 11.31px 25px 0px rgba(133, 95, 58, 0.23);
+        /* margin-bottom: 20%; */
+        margin-bottom: 100px;
+}
