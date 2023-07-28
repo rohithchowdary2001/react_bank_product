@@ -91,8 +91,8 @@ const Portifolio = () => {
                     <div >E-mail:</div>
                     <div>rohithyadlapalli2001@gmail.com</div>
                 </div>
-                <div style={{ paddingTop: '20px' }}>Help</div>
-                <div style={{ paddingTop: '20px' }}>About</div>
+                {/* <div style={{ paddingTop: '20px' }}>Help</div>
+                <div style={{ paddingTop: '20px' }}>About</div> */}
             </footer>
         </div>
     );
