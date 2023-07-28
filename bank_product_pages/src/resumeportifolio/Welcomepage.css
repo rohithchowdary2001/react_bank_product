@@ -65,3 +65,14 @@
     background-color: black;
     color: white;
   }
+  @media only screen and (max-width: 480px){
+    .menuitems{
+        display: grid;
+        justify-content: space-between;
+        padding-top: 40px;
+        width: 100%;
+        position: fixed;
+        background-color: white;
+        top: 0%;
+    }
+  }

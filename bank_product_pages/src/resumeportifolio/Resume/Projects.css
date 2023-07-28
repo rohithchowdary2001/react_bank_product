@@ -33,3 +33,9 @@
     /* object-fit: cover; */
     border-radius: 10px;
 }
+@media only screen and (max-width: 480px){
+    .containerrr{
+        padding-top: 150px;
+    }
+    
+}
