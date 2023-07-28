@@ -32,7 +32,7 @@ const Resumee = () => {
                         <div> Eviden</div><br />
                         <div> Chennai</div><br />
                     </div>
-                    <div className='educationcontent' style={{textAlign:'justify',paddingRight:'20px'}}>I'm working as an web developer for MANULIFE account build team here I develop frint end web pages based on the client requirements using new technologies such as react js, node js, and also i intract with backend technologies such as spring boot and database such as sql.
+                    <div className='educationcontent' style={{ textAlign: 'justify', paddingRight: '20px' }}>I'm working as an web developer for MANULIFE account build team here I develop frint end web pages based on the client requirements using new technologies such as react js, node js, and also i intract with backend technologies such as spring boot and database such as sql.
                     </div>
                 </div>
             </div>
@@ -41,26 +41,25 @@ const Resumee = () => {
 
             <div className='b'>
                 <div className='haritha' style={{ fontSize: '25px' }}><b>Education</b></div>
-                <div className='deekshitha'>
-                    <div className='pravallika'>
+                <div className='ramya'>
+                    <div className='bro'>
                         <div className='c'>
-                            <div style={{ color: "blue", fontSize: '20px' }}>2019 - 2022</div><br />
+                            <div style={{ color: " blue", fontSize: '20px' }}>2019 - 2022</div><br />
                             <div>Computer Science and Engineering</div><br />
                             <div> SASI Institute of Technology and Engineering</div><br />
                             <div> Tadepalligudem</div><br />
                         </div>
-                        <div className='educationcontent' style={{textAlign:'justify',paddingRight:'20px'}}>
-                            Here is the place where I learned computer languages and coding such as C, Data Structures, Python, R Programming and Algorithm Design and Analysis. Where i did a project named as Named Entity recognization using NLP Process as my final year project.
+                        <div className='educationcontent' style={{ textAlign: 'justify', paddingRight: '20px' }}>Here is the place where I learned computer languages and coding such as C, Data Structures, Python, R Programming and Algorithm Design and Analysis. Where i did a project named as Named Entity recognization using NLP Process as my final year project.
                         </div>
                     </div>
-                    <div className='pravallika'>
+                    <div className='bro'>
                         <div className='c'>
                             <div style={{ color: "blue", fontSize: '20px' }}>2016 - 2019</div><br />
                             <div>Civil Engineering</div><br />
                             <div> VKR & VNB polytehnic collage</div><br />
                             <div> Gudivada</div><br />
                         </div>
-                        <div className='educationcontent' style={{textAlign:'justify',paddingRight:'20px'}}>This is the place where i have got my maturity and a good friends and i did my diploma in Civil Engineering and also i did an internship in dalapathy constructions as an intern where i learned site management and labour management.
+                        <div className='educationcontent' style={{ textAlign: 'justify', paddingRight: '20px' }}>This is the place where i have got my maturity and a good friends and i did my diploma in Civil Engineering and also i did an internship in dalapathy constructions as an intern where i learned site management and labour management.
                         </div>
                     </div>
                 </div>

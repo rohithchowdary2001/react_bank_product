@@ -1,7 +1,7 @@
 import React from "react";
 import Projects from './Projects.css';
-import nlp from '../nlp.jpg';
-import logos from '../logos.jpg';
+import nlpimage from '../nlpimage.png';
+import nut from '../nut.png';
 
 
 const Resumeproject = () => {
@@ -20,7 +20,7 @@ const Resumeproject = () => {
                 <div className='eeducationcontent' style={{textAlign:'justify',paddingRight:'20px'}}>Project titled as named entity recognition using NLP approach which is used to find the different entities present in a article which we took from wikipedia and here we reached 96% of accuracy and also we compared this model with BERT and CNF also.
                     </div>
                     <div className='c'>
-                    <img className="imageee" src={nlp} />
+                    <img className="imageee" src={nlpimage} />
                     </div>
 
                 </div>
@@ -31,7 +31,7 @@ const Resumeproject = () => {
                 <div className='eeducationcontent' style={{textAlign:'justify',paddingRight:'20px'}}>Project titled as CRUD operations uisng react js , spring boot and sql which is a application used to add products by owner and order products by user and in this application we can apply coupens and also placeorder. Here we developed this application to sell nuts.
                     </div>
                     <div className='c'>
-                    <img className="imageee" src={logos} />
+                    <img className="imageee" src={nut} />
                     </div>
 
                 </div>
